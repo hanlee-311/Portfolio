@@ -2,6 +2,12 @@ body {
     background-color: lightpink;
 }
 
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
 .grid-wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -16,6 +22,11 @@ header {
     grid-column: 1/4;
     grid-row: 1;
     margin: -1em -1em 1em -1em;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 200%;
 }
 
 /*Main Styling*/
@@ -40,6 +51,16 @@ aside {
     grid-column: 3;
     grid-row: 1/3;
     margin-top: -1em;
+    padding-top: 50%;
+}
+
+h3 {
+    font-size: 150%;
+    text-align: center;
+}
+
+.aside-information {
+
 }
 
 /*Footer Styling*/
