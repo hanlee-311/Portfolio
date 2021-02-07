@@ -1,3 +1,4 @@
+/*General Style*/
 body {
     background-color: lightpink;
 }
@@ -51,10 +52,37 @@ main section {
 .about-me h2 {
     grid-column: 1;
     grid-row: 1;
+    font-size: 150%;
 }
 
 .about-me img {
     grid-column: 1;
+    grid-row: 2;
+}
+
+.about-me p {
+    grid-row: 2;
+}
+
+/*My Work Styling*/
+
+.my-work {
+    display: grid;
+    grid-template-columns: 2fr 1 fr;
+}
+
+.my-work h3 {
+    grid-column: 3;
+    font-size: 150%;
+}
+
+.my-work img {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.my-work p {
+    grid-column: 2;
     grid-row: 2;
 }
 
