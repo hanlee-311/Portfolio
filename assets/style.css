@@ -40,9 +40,22 @@ main section {
     padding: 1em;
 }
 
+/*About Me Styling*/
 .about-me {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     background-color: rgb(226, 161, 172);
     opacity: 0.5;
+}
+
+.about-me h2 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.about-me img {
+    grid-column: 1;
+    grid-row: 2;
 }
 
 /*Aside Styling*/
@@ -54,7 +67,7 @@ aside {
     padding-top: 50%;
 }
 
-h3 {
+h4 {
     font-size: 150%;
     text-align: center;
 }
