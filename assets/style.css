@@ -1,34 +1,53 @@
+body {
+    background-color: lightpink;
+}
+
 .grid-wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 1em;
+    margin: 1em 1em 1em 1em;
 }
 
 /*Header Styling*/
 header {
-    background-color:brown;
-    grid-column: 1/3;
+    background-color: rgb(226, 161, 172);
+    grid-column: 1/4;
+    grid-row: 1;
+    margin: -1em -1em 1em -1em;
 }
 
 /*Main Styling*/
 main {
-    background-color: aquamarine;
     grid-column: 1/3;
     grid-row: 2;
 }
 
+main section {
+    background-color: rgb(226, 161, 172);
+    padding: 1em;
+}
+
+.about-me {
+    background-color: rgb(226, 161, 172);
+    opacity: 0.5;
+}
+
 /*Aside Styling*/
 aside {
-    background-color:chocolate;
+    background-color: rgb(226, 161, 172);
     grid-column: 3;
     grid-row: 1/3;
+    margin-top: -1em;
 }
 
 /*Footer Styling*/
 footer {
-    background-color: cornflowerblue;
+    background-color:  rgb(226, 161, 172);
     grid-column: 1/4;
-    grid-row: 3
+    grid-row: 3;
+    margin-left: -1em;
+    margin-right: -1em;
 }
 
