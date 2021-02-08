@@ -1,6 +1,8 @@
 /*General Style*/
 body {
-    background-color: lightpink;
+    background-color: rgb(255, 224, 228);
+    background-image: url('images/background-image.png');
+    background-repeat: no-repeat;
 }
 
 img {
@@ -29,6 +31,7 @@ header {
     grid-row: 1;
     margin: -1em -1em 1em -1em;
     padding: 2em 2em 10em 2em;
+    opacity: 0.5;
 }
 
 h1 {
@@ -52,7 +55,7 @@ main section {
     display: grid;
     grid-template-columns: 1/2fr 1fr 2fr;
     background-color: rgb(226, 161, 172);
-    opacity: 0.5;
+    opacity: 0.75;
 }
 
 .about-me h2 {
