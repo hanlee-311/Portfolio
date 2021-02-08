@@ -28,7 +28,7 @@ header {
     grid-column: 1/4;
     grid-row: 1;
     margin: -1em -1em 1em -1em;
-    padding: 2em;
+    padding: 2em 2em 10em 2em;
 }
 
 h1 {
@@ -119,14 +119,15 @@ aside {
     background-color: rgb(226, 161, 172);
     grid-column: 3;
     grid-row: 2/3;
-    margin-top: -1em;
-    padding-top: 1em;
+    margin-top: -2em;
+    padding-top: 2em;
     text-align: center;
 }
 
 h4 {
     font-size: 150%;
     text-align: center;
+    padding-bottom: 1em;
 }
 
 aside li {
@@ -146,5 +147,6 @@ footer {
     grid-row: 3;
     margin-left: -1em;
     margin-right: -1em;
+    margin-bottom: -1em;
 }
 
