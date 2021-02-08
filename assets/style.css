@@ -18,10 +18,13 @@ img {
     margin: 1em 1em 1em 1em;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: VT323;
+}
+
 /*Header Styling*/
 header {
     background-color: rgb(226, 161, 172);
-    font-family: VT323;
     grid-column: 1/4;
     grid-row: 1;
     margin: -1em -1em 1em -1em;
