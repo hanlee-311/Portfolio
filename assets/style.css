@@ -102,14 +102,11 @@ main section {
     grid-column: 1/3;
     grid-row: 2;
     display: flex;
-}
-
-/*My Work Card Holder Styling*/
-
-.card-holder {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+/*My Work Card Holder Styling*/
 
 .card-holder img {
     border: 3px solid white;
