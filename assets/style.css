@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: VT323;
 }
 
+
 /*Header Styling*/
 header {
     background-color: var(--background-pink);
@@ -46,7 +47,7 @@ header {
 header nav {
     grid-column: 1/5;
     grid-row: 1;
-    background-color: green;
+    background-color: var(--yellow);
     margin-top: -2em;
     margin-left: -2em;
     margin-right: -2em;
@@ -61,28 +62,6 @@ h1 {
     font-size: 500%;
     padding-left: 1em;
 }
-
-/* .header-figure-1 {
-    background-color:sienna;
-    grid-column: 2;
-    grid-row: 2;
-    margin-bottom: -10em;
-}
-
-.header-figure-2 {
-    background-color: greenyellow;
-    grid-column: 3;
-    grid-row: 2;
-    margin-bottom: -10em;
-}
-
-.header-figure-3 {
-    background-color: purple;
-    grid-column: 4;
-    grid-row: 2;
-    margin-bottom: -10em;
-} */
-
 
 /*Main Styling*/
 main {
@@ -101,7 +80,7 @@ main section {
     display: grid;
     grid-template-columns: 1/2fr 1fr 2fr;
     background-color: var(--background-pink);
-    /* opacity: 0.75; */
+    opacity: 0.75;
 }
 
 .about-me h2 {
@@ -121,13 +100,6 @@ main section {
     grid-column: 2/4;
     padding-bottom: 1em;
     margin-left: 2%;
-}
-
-.about-me p:after {
-    border: 1px solid red;
-    content: '';
-    height: 0px;
-    width: 20%;
 }
 
 /*My Work Styling*/
@@ -161,28 +133,42 @@ main section {
     padding: 1em;
 }
 
+.line:before {
+    border: 1px solid black;
+    content: '';
+    height: 0px;
+    width: 20%;
+    margin-top: -1em;
+    margin-left: 20em;
+    margin-right: 10em;
+    display: block;
+    position: absolute;
+}
+
 /*My Work Card Holder Styling*/
 
 .card-holder img {
     border: 3px solid white;
     border-radius: 10%;
+    
 }
 
 .card-holder:hover {
     cursor: pointer;
-    box-shadow: 0 0 9px black;
+    transform: translateY(-5px); 
 }
 
 .horiseon {
     position: absolute;
     bottom: -1%;
+    width: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: black;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 
-figure {
+.card-holder {
     position: relative;
     text-align: center;
     color: white;
@@ -277,21 +263,6 @@ footer img {
     h1 {
         padding-bottom: 1em;
     }
-
-    /* .header-figure-1 {
-        grid-column: 1;
-        grid-row: 2
-    }
-
-    .header-figure-2 {
-        grid-column: 2;
-        grid-row: 2;
-    }
-
-    .header-figure-3 {
-        grid-column: 3;
-        grid-row: 2;
-    } */
     
     /*for Aside*/
     aside {
