@@ -38,32 +38,44 @@ header {
     grid-auto-rows: minmax(100px, auto);
 }
 
+header nav {
+    grid-column: 1/5;
+    grid-row: 1;
+    background-color: green;
+    margin-top: -2em;
+    margin-left: -2em;
+    margin-right: -2em;
+}
+
+header nav div {
+    display:flex;
+    justify-content: space-evenly;
+}
+
 h1 {
     font-size: 500%;
+    padding-left: 1em;
 }
 
 .header-figure-1 {
     background-color:sienna;
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 2;
     margin-bottom: -10em;
-    margin-top: -2em;
 }
 
 .header-figure-2 {
     background-color: greenyellow;
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 2;
     margin-bottom: -10em;
-    margin-top: -2em;
 }
 
 .header-figure-3 {
     background-color: purple;
     grid-column: 4;
-    grid-row: 1;
+    grid-row: 2;
     margin-bottom: -10em;
-    margin-top: -2em;
 }
 
 
