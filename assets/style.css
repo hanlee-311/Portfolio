@@ -45,7 +45,6 @@ header {
     grid-row: 1;
     margin: -1em -1em 1em -1em;
     padding: 2em 1em 10em 2em;
-    /* opacity: 0.5; */
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(100px, auto);
@@ -64,7 +63,7 @@ header nav div {
     grid-column: 2/4;
     justify-self: end;
     z-index: 2;
-    display:flex;
+    display: flex;
 }
 
 header a {
@@ -390,6 +389,15 @@ footer img {
     h1 {
         padding-bottom: 1em;
     }
+
+    header nav {
+        display: grid;
+    }
+
+    header div {
+        grid-row: 2;
+        
+    }
     
     /*for Aside*/
     aside {
@@ -402,39 +410,43 @@ footer img {
 
     .aside-information {
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: 2fr 3fr;
         grid-gap: 1em;
     }
+
+    .aside-information .cherry-aside {
+        /* margin-top: -1em;
+        max-width: 40%;
+        margin-left: 498px;
+        max-height: 70%;
+        float: right;
+        overflow: auto;
+        z-index: -1; */
+        visibility: hidden;
+    }
+
 
     .aside-information h4 {
         grid-column: 1;
         grid-row: 1;
-        margin-left: 2em;
         justify-self: center;
     }
 
     .aside-information img {
         grid-column: 1;
         grid-row: 2;
-        margin-top: -5em;
-        margin-left: 2em;
-        margin-bottom: -1em;
         justify-self: center;
     }
 
     .aside-information h5 {
         grid-column: 1;
         grid-row: 3;
-        margin-left: 2em;
+        justify-self: center;
     }
 
     .aside-information nav {
         grid-column: 1/2;
-        grid-row: 3;
-        margin-left: 2em;
-        margin-top: 2em;
-        align-self: center;
+        grid-row: 4;
     }
 
     .tooltip-email .tooltiptext {
@@ -448,7 +460,15 @@ footer img {
     
     .aside-information h6 {
         grid-column: 2/3;
-        grid-row: 1/3;
+        grid-row: 1;
+        justify-self: center;
+        margin: 0;
+
+    }
+
+    .aside-information ul {
+        grid-column: 2/3;
+        grid-row: 2/5;
     }
 
     /*For Main and Footer*/
