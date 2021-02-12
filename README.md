@@ -10,6 +10,8 @@ https://www.clipartmax.com/middle/m2H7G6Z5d3b1K9d3_dna-code-icon-clipart-dna-gen
 
 https://www.clipartmax.com/middle/m2i8H7i8G6H7N4b1_technology-enhanced-science-investigations-computer-science-logo-png/
 
+https://fontawesome.com/v4.7.0/
+
 ## Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:

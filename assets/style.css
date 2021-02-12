@@ -444,6 +444,7 @@ footer img {
         grid-column: 1;
         grid-row: 1;
         justify-self: center;
+        padding: 0em;
     }
 
     .aside-information img {
@@ -456,6 +457,7 @@ footer img {
         grid-column: 1;
         grid-row: 3;
         justify-self: center;
+        margin: 0em;
     }
 
     .aside-information nav {
@@ -476,6 +478,7 @@ footer img {
         grid-column: 2/3;
         grid-row: 1;
         justify-self: center;
+        align-self: center;
         margin: 0;
 
     }
@@ -483,6 +486,7 @@ footer img {
     .aside-information ul {
         grid-column: 2/3;
         grid-row: 2/5;
+        align-self: start;
     }
 
     /*For Main and Footer*/
