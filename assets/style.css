@@ -82,6 +82,8 @@ header a:hover {
 h1 {
     font-size: 500%;
     padding-left: 1em;
+    color: rgb(105, 38, 38);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /*Main Styling*/
@@ -174,31 +176,31 @@ main section {
 
 /*My Work Card Holder Styling*/
 
-.card-holder img {
-    border: 3px solid white;
-    border-radius: 10%; 
-}
-
-.card-holder:hover {
-    cursor: pointer;
-    transform: translateY(-5px); 
-}
-
-.horiseon {
-    position: absolute;
-    bottom: 3.2%;
-    width: 20%;
-    left: 15.5%;
-    transform: translate(-50%, -50%);
-    background-color: black;
-    border-bottom-left-radius: 44%;
-}
-
 .card-holder {
     position: relative;
     text-align: center;
     color: white;
     opacity: 1;
+}
+
+.card-holder img {
+    border: 3px solid white;
+    border-radius: 0%; 
+}
+
+.horiseon {
+    position: absolute;
+    bottom: 2%;
+    width: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border: 3px solid white;
+}
+
+.card-holder:hover {
+    cursor: pointer;
+    transform: translateY(-5px); 
 }
 
 /*Aside Styling*/
@@ -282,8 +284,8 @@ li {
 }
 
 .degree {
-    color: rgb(57, 182, 255);
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: rgb(4, 39, 59);
+    font-weight: bold;
 }
 
 /*Aside Nav Tooltip styling*/
