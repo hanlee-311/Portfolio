@@ -268,7 +268,7 @@ nav i:hover {
 }
 
 /*Aside Nav Tooltip styling*/
-.tooltip {
+.tooltip, .tooltip-email {
     position: relative;
     display: inline-block;
 }
@@ -289,7 +289,27 @@ nav i:hover {
     z-index: 1;
 }
 
+.tooltip-email .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -105px;
+    margin-top: 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
 .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip-email:hover .tooltiptext {
     visibility: visible;
 }
 
@@ -375,6 +395,23 @@ footer img {
         margin-top: 2em;
         align-self: center;
     }
+
+    .tooltip-email .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+        margin-top: 2px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+    }
+    
     
     .aside-information h6 {
         grid-column: 2/3;
