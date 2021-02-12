@@ -160,8 +160,7 @@ main section {
 
 .card-holder img {
     border: 3px solid white;
-    border-radius: 10%;
-    
+    border-radius: 10%; 
 }
 
 .card-holder:hover {
@@ -171,12 +170,12 @@ main section {
 
 .horiseon {
     position: absolute;
-    bottom: -1%;
-    width: 100%;
-    left: 50%;
+    bottom: 3.2%;
+    width: 20%;
+    left: 15.5%;
     transform: translate(-50%, -50%);
     background-color: black;
-    /* opacity: 0.5; */
+    border-bottom-left-radius: 44%;
 }
 
 .card-holder {
@@ -234,8 +233,13 @@ nav {
     grid-column: 3;
 }
 
+nav i {
+    color: black;
+}
+
 nav i:hover {
-    transform: translateY(-5px);  
+    transform: translateY(-5px); 
+    color:rgb(189, 68, 88); 
 }
 
 /*Footer Styling*/
