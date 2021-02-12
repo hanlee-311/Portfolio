@@ -313,6 +313,28 @@ nav i:hover {
     visibility: visible;
 }
 
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip-email .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 79%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
 /*Footer Styling*/
 footer {
     background-color:  var(--background-pink);
@@ -400,7 +422,10 @@ footer img {
         width: 190px;
         margin-left: -95px;
     }
-    
+
+    .tooltip-email .tooltiptext::after {
+        left: 50%;
+    }
     
     .aside-information h6 {
         grid-column: 2/3;
