@@ -106,7 +106,7 @@ main section {
     justify-self: start;
 }
 
-.about-me p {
+.about-me div {
     grid-row: 2;
     grid-column: 2/4;
     padding-bottom: 1em;
@@ -216,7 +216,7 @@ h6 {
 
 nav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 1em 0em;
 }
@@ -231,6 +231,10 @@ nav {
 
 .Email {
     grid-column: 3;
+}
+
+.Phone {
+    grid-column: 4;
 }
 
 nav i {
