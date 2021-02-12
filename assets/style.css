@@ -396,8 +396,8 @@ footer img {
     
 }
 
-/*For Phones*/
-@media only screen and (max-width: 768px) {
+/*For Smaller window*/
+@media only screen and (max-width: 1257px) {
     
     /*For header*/
     header {
