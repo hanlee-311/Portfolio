@@ -425,18 +425,19 @@ footer img {
     .aside-information {
         display: grid;
         grid-template-columns: 2fr 3fr;
+        height: 409px;
         grid-gap: 1em;
     }
 
     .aside-information .cherry-aside {
-        /* margin-top: -1em;
+        margin-top: -1em;
         max-width: 40%;
-        margin-left: 498px;
         max-height: 70%;
-        float: right;
-        overflow: auto;
-        z-index: -1; */
-        visibility: hidden;
+        z-index: -1;
+        /* visibility: hidden; */
+        grid-row: 1/5;
+        grid-column: 2;
+        justify-self: end;;
     }
 
 
@@ -449,7 +450,7 @@ footer img {
 
     .aside-information img {
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 2/3;
         justify-self: center;
     }
 
