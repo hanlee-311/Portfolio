@@ -1,6 +1,7 @@
 /*General Style*/
 :root {
-    --background-pink-opacity: #e2a1aca1;
+    --header-pink-opacity: #e2a1aca1;
+    --about-me-pink-opacity: #ecbac2ee;
     --background-pink:#e2a1ac; 
     --yellow-opacity: #ffffacce;
 }
@@ -38,7 +39,7 @@ h1, h2, h3, h4, h5, h6, a {
 
 /*Header Styling*/
 header {
-    background-color: var(--background-pink-opacity);
+    background-color: var(--header-pink-opacity);
     grid-column: 1/4;
     grid-row: 1;
     margin: -1em -1em 1em -1em;
@@ -89,7 +90,6 @@ main {
 }
 
 main section {
-    background-color: var(--background-pink);
     padding: 1em;
     margin-top: -1em;
 }
@@ -98,7 +98,7 @@ main section {
 .about-me {
     display: grid;
     grid-template-columns: 1/2fr 1fr 2fr;
-    background-color: #e2a1acd8;
+    background-image: linear-gradient(#ecbac2ee, #e2a1ac);
 }
 
 .about-me h2 {
@@ -130,6 +130,7 @@ main section {
 .my-work {
     display: grid;
     grid-template-columns: 2fr 1fr 1/2fr;
+    background-image: linear-gradient(#e2a1ac, #e2a1ac, rgba(255, 255, 255, 0));
 }
 
 .my-work h3 {
@@ -154,10 +155,11 @@ main section {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 1em;
+    background-image: none;
 }
 
 .line:before {
-    border: 1px solid black;
+    border: 1px solid rgb(105, 38, 38);
     content: '';
     height: 0px;
     width: 20%;
