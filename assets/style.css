@@ -141,9 +141,9 @@ main section {
     grid-column: 2;
     grid-row: 1;
     font-size: 200%;
-    justify-self: end;
+    justify-self: start;
     margin-right: 2%;
-    padding-left: 1em;
+    padding-right: .5em;
 }
 
 .computer-science {
@@ -167,6 +167,7 @@ main section {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 1em;
+    margin-top: -2em;
     background-image: none;
 }
 
