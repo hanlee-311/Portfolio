@@ -94,3 +94,6 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+https://www.clipartmax.com/middle/m2H7G6Z5d3b1K9d3_dna-code-icon-clipart-dna-genetics-dna-binary/
+
