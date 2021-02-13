@@ -12,6 +12,8 @@ https://www.clipartmax.com/middle/m2i8H7i8G6H7N4b1_technology-enhanced-science-i
 
 https://fontawesome.com/v4.7.0/
 
+https://www.deviantart.com/fictionchick/art/Grunge-Texture-Overlay-PNG-428805936
+
 ## Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:

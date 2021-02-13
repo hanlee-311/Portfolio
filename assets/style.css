@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6, a, aside nav div, .horiseon {
 /*Header Styling*/
 header {
     background-color: var(--header-pink-opacity);
+    background-image: url(./images/grunge_texture_overlay_png_by_fictionchick_d73ass0-fullview.png);
     grid-column: 1/4;
     grid-row: 1;
     margin: -1em -1em 1em -1em;
@@ -375,6 +376,7 @@ li {
 /*Footer Styling*/
 footer {
     background-color:  var(--background-pink);
+    background-image: url(./images/grunge_texture_overlay_png_by_fictionchick_d73ass0-fullview.png);
     grid-column: 1/4;
     grid-row: 3;
     margin-left: -1em;
