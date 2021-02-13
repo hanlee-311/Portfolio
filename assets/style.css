@@ -580,15 +580,10 @@ footer img {
         width: 20%;
     }
 
-    .large img {
-        width: 200px;
-        height: 100px;
+    .my-work div {
+        padding-top: 2em;
+        grid-column: 1/4;
     }
-
-    .small img {
-        width: 200px;
-    }
-
 
     /*For Aside*/
     .aside-information {
@@ -680,5 +675,13 @@ footer img {
 
     .title-card:hover {
         opacity: 1;
+    }
+
+    .large img {
+        width: 300px;
+    }
+
+    .small img {
+        width: 80%;
     }
 }
