@@ -581,12 +581,14 @@ footer img {
     }
 
     .large img {
-        width: 100%;
+        width: 200px;
+        height: 100px;
     }
 
     .small img {
-        width: 50%;
+        width: 200px;
     }
+
 
     /*For Aside*/
     .aside-information {
@@ -673,13 +675,6 @@ footer img {
 
     /*For Title-cards*/
     .title-card {
-        position: absolute;
-        bottom: 2%;
-        width: 20%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: var(--card-title-background);
-        border: 3px solid white;
         opacity: .5;
     }
 
