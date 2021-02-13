@@ -29,7 +29,7 @@ img {
     margin: 1em 1em 1em 1em;
 }
 
-h1, h2, h3, h4, h5, h6, a, aside nav div, .horiseon {
+h1, h2, h3, h4, h5, h6, a, aside nav div, .title-card {
     font-family: VT323;
 }
 
@@ -199,7 +199,7 @@ main section {
     border-radius: 10%; 
 }
 
-.horiseon {
+.title-card {
     position: absolute;
     bottom: 2%;
     width: 20%;
