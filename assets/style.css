@@ -395,6 +395,7 @@ footer {
 
 h7 {
     font-size: 200%;
+    font-weight: bold;
     text-decoration: overline;
     color: rgb(4, 39, 59);
     text-shadow: 0 0 3px #ffffac;
@@ -428,7 +429,7 @@ footer img {
     grid-row: 1/3;
     grid-column: 1/3;
     justify-self: end;
-    align-self: end;
+    align-self: start;
 }
 
 /*For Smaller window*/
@@ -648,4 +649,9 @@ footer img {
     .title-card:hover {
         opacity: 1;
     }
-}
+
+    /*For Footer Nav*/
+    footer nav {
+        display: flex;
+        flex-direction: column;
+    }
