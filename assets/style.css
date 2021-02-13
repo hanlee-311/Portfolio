@@ -4,6 +4,7 @@
     --about-me-pink-opacity: #ecbac2ee;
     --background-pink:#e2a1ac; 
     --yellow-opacity: #ffffacce;
+    --card-title-background: rgba(0, 0, 0, 0.74);
 }
 
 body {
@@ -203,13 +204,13 @@ main section {
     width: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+    background-color: var(--card-title-background);
     border: 3px solid white;
 }
 
 .card-holder:hover {
     cursor: pointer;
-    transform: translateY(-5px); 
+    transform: translateY(-5px);
 }
 
 /*Aside Styling*/
@@ -477,7 +478,6 @@ footer img {
         justify-self: center;
         align-self: center;
         margin: 0;
-
     }
 
     .aside-information ul {
@@ -507,7 +507,7 @@ footer img {
     }
 }
 
-/*Small Phone screens*/
+/*For Small Phone screens*/
 @media only screen and (max-width: 650px) {
     
     /*For Aside*/
@@ -525,6 +525,11 @@ footer img {
         padding-top: 0em;
         display: flex;
         flex-direction: column;
+    }
+
+    .aside-information h6 {
+        justify-self: start;
+        padding-left: 1.2em;
     }
 
     .aside-information i {
@@ -561,4 +566,17 @@ footer img {
         margin-left: -10px;
         border-color: transparent black transparent transparent;
     } 
+}
+
+/*For Very Small Phone screens*/
+@media only screen and (max-width: 518px) {
+    .tooltip .tooltiptext {
+        top: -5px;
+        left: 100%;
+    }
+    
+    .tooltip-email .tooltiptext {
+        top: -5px;
+        left: 122%;
+    }
 }
