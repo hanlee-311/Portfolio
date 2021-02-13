@@ -91,7 +91,7 @@ header a:hover {
 }
 
 .subheader {
-    grid-column: 3/5;
+    grid-column: 1/5;
     grid-row: 3;
     justify-self: start;
     font-family: VT323;
@@ -99,7 +99,7 @@ header a:hover {
     text-shadow: 2px 2px 4px white;
     color: var(--header-color);
     font-size: 275%;
-    padding-top: 2em;
+    padding: 1em 0em .5em 1em;
 }
 
 /*Main Styling*/
