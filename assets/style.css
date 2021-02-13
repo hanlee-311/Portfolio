@@ -568,6 +568,15 @@ footer img {
         margin-left: -10px;
         border-color: transparent black transparent transparent;
     } 
+
+    /*For My Work*/
+    .large img {
+        width: 100%;
+    }
+
+    .small img {
+        width: 50%;
+    }
 }
 
 /*For Very Small Phone screens*/
