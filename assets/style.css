@@ -586,6 +586,7 @@ footer img {
 
 /*For Very Small Phone screens*/
 @media only screen and (max-width: 518px) {
+    /*For Tooltip*/
     .tooltip .tooltiptext {
         top: -5px;
         left: 100%;
@@ -596,6 +597,7 @@ footer img {
         left: 122%;
     }
 
+    /*For Title-cards*/
     .title-card {
         position: absolute;
         bottom: 2%;
