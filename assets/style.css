@@ -511,6 +511,11 @@ footer img {
 
 /*For Small Phone screens*/
 @media only screen and (max-width: 650px) {
+
+    /*For Header*/
+    h1 {
+        padding: .1em;
+    }
     
     /*For Aside*/
     .aside-information {
@@ -589,5 +594,20 @@ footer img {
     .tooltip-email .tooltiptext {
         top: -5px;
         left: 122%;
+    }
+
+    .title-card {
+        position: absolute;
+        bottom: 2%;
+        width: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--card-title-background);
+        border: 3px solid white;
+        opacity: .5;
+    }
+
+    .title-card:hover {
+        opacity: 1;
     }
 }
