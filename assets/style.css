@@ -512,6 +512,11 @@ footer img {
         height: auto;
     }
 
+    .profile-pic {
+        width: auto;
+        margin-left: 1em;
+    }
+
     .aside-information nav {
         padding-top: 0em;
         display: flex;
@@ -520,6 +525,10 @@ footer img {
 
     .aside-information i {
         padding-bottom: .1em;
+    }
+
+    .aside-information ul {
+        grid-row: 1/6;
     }
 
     /*For Aside Nav Tooltip*/
