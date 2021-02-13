@@ -619,6 +619,12 @@ footer img {
     .small img {
         width: 50%;
     }
+
+    /*For Footer Nav*/
+    footer nav {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /*For Very Small Phone screens*/
@@ -648,10 +654,4 @@ footer img {
 
     .title-card:hover {
         opacity: 1;
-    }
-
-    /*For Footer Nav*/
-    footer nav {
-        display: flex;
-        flex-direction: column;
     }
