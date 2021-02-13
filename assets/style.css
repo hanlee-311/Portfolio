@@ -176,8 +176,9 @@ main section {
     height: 0px;
     width: 20%;
     margin-top: -1em;
-    margin-left: 20em;
-    margin-right: 10em;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-right: 8em;
     display: block;
     position: absolute;
 }
@@ -407,8 +408,13 @@ footer img {
         grid-row: 1;
         grid-column: 2/5;
     }
-    
-    /*for Aside*/
+
+    .line:before {
+        width: 10%;
+        margin-left: 35%;
+    }
+
+    /*For Aside*/
     aside {
         grid-column: 1/4;
         grid-row: 2;
