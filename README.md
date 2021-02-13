@@ -1,18 +1,31 @@
 # Hannah Lee's Portfolio
 
-Image Here
+![Hannah Lee's Portfolio Webpage](./assets/images/)
 
 ## Description 
+Every new coder stepping into the field needs to show off their abilities, and what better way than to deploy a portfolio designed by their very own hands? 
+
+The portfolio consists of three major sections: About Me, My Work, and a Contact Me navigation bar. With a brief glance you can learn a little bit about me, and view my past coding work with the click of the mouse. A navigation bar has been included at the top to access any part of the page!
+
+Have I peaked your interest? Take a look! If you think I'm the candidate for you, please feel free to reach out to me by phone number or email!
+
+#### Deployed Link: [Hannah Lee's Coding Portfolio](https://hanlee-311.github.io/hannah-lee-portfolio/)
 
 ### Resources
 
-https://www.clipartmax.com/middle/m2H7G6Z5d3b1K9d3_dna-code-icon-clipart-dna-genetics-dna-binary/
+[Cherry Blossom Image](https://www.kindpng.com/imgv/iRxbRm_cherry-blossom-png-free-download-cherry-blossom-tree/)
 
-https://www.clipartmax.com/middle/m2i8H7i8G6H7N4b1_technology-enhanced-science-investigations-computer-science-logo-png/
+[Genetic and Binary Code Clipart](https://www.clipartmax.com/middle/m2H7G6Z5d3b1K9d3_dna-code-icon-clipart-dna-genetics-dna-binary/)
 
-https://fontawesome.com/v4.7.0/
+[Computer Science Clipart](https://www.clipartmax.com/middle/m2i8H7i8G6H7N4b1_technology-enhanced-science-investigations-computer-science-logo-png/)
 
-https://www.deviantart.com/fictionchick/art/Grunge-Texture-Overlay-PNG-428805936
+[Font Awesome Icons](https://fontawesome.com/v4.7.0/)
+
+[Texture Overlay Image by fictionchick](https://www.deviantart.com/fictionchick/art/Grunge-Texture-Overlay-PNG-428805936)
+
+[CSS Garden - Layout Inspiration](http://www.csszengarden.com/215/)
+
+[Draw.io - Wireframing Resource](https://app.diagrams.net/)
 
 ## Acceptance Criteria
 
@@ -24,7 +37,7 @@ WHEN I load their portfolio
 ✅THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
 WHEN I click one of the links in the navigation
 THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
+✅WHEN I click on the link to the section about their work
 THEN the UI scrolls to a section with titled images of the developer's applications
 ✅WHEN I am presented with the developer's first application
 THEN that application's image should be larger in size than the others
