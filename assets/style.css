@@ -651,7 +651,15 @@ footer img {
 
 /*For Very Small Phone screens*/
 @media only screen and (max-width: 518px) {
-     /*For My Work*/
+    /*For Header Nav*/
+    header nav div{
+        grid-column: 1;
+        justify-self: start;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /*For My Work*/
      .line:before {
         width: 5%;
         margin-left: 15%;
