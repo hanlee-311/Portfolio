@@ -5,6 +5,8 @@
     --background-pink:#e2a1ac; 
     --yellow-opacity: #ffffacce;
     --card-title-background: rgba(0, 0, 0, 0.74);
+    --header-color: rgb(14, 80, 119);
+    --brown-text: rgb(105, 38, 38);
 }
 
 body {
@@ -31,6 +33,7 @@ img {
 
 h1, h2, h3, h4, h5, h6, h7, a, nav, .title-card {
     font-family: VT323;
+    color: var(--header-color);
 }
 
 .about-me p, aside ul {
@@ -55,7 +58,7 @@ header {
 h1 {
     font-size: 500%;
     padding-left: 1em;
-    color: rgb(105, 38, 38);
+    color: #e2a1ac;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -242,6 +245,7 @@ h5 {
     margin-top: 1em;
     margin-bottom: 1em;
     font-size: 150%;
+    color: var(--brown-text);
 }
 
 /*Aside Nav Styling*/
@@ -282,6 +286,7 @@ nav i:hover {
 h6 {
     margin-top: 1em;  
     font-size: 150%;
+    color: var(--brown-text);
 }
 
 ul {
