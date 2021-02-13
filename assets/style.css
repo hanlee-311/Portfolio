@@ -449,6 +449,11 @@ footer img {
         grid-column: 2/5;
     }
 
+    /*For My Work Section*/
+    .line:before {
+    width: 40%;
+    }
+
     /*For Aside*/
     aside {
         grid-column: 1/4;
@@ -537,12 +542,16 @@ footer img {
 
 }
 
-/*For Header Only at smaller screen size*/
+/*For smaller screen size*/
 @media only screen and (max-width: 830px) {
     
     header nav div {
         grid-row: 2;
         grid-column: 1/5;
+    }
+
+    .line:before {
+        width: 30%;
     }
 }
 
@@ -553,7 +562,20 @@ footer img {
     h1 {
         padding: .1em;
     }
-    
+
+    /*For My Work*/
+    .line:before {
+        width: 20%;
+    }
+
+    .large img {
+        width: 100%;
+    }
+
+    .small img {
+        width: 50%;
+    }
+
     /*For Aside*/
     .aside-information {
         width: auto;
@@ -611,15 +633,6 @@ footer img {
         border-color: transparent black transparent transparent;
     } 
 
-    /*For My Work*/
-    .large img {
-        width: 100%;
-    }
-
-    .small img {
-        width: 50%;
-    }
-
     /*For Footer Nav*/
     footer nav {
         display: flex;
@@ -629,6 +642,12 @@ footer img {
 
 /*For Very Small Phone screens*/
 @media only screen and (max-width: 518px) {
+     /*For My Work*/
+     .line:before {
+        width: 5%;
+        margin-left: 15%;
+    }
+    
     /*For Tooltip*/
     .tooltip .tooltiptext {
         top: -5px;
